@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        hello Webpack
+        <div class="middle-box"></div>
+    </div>
+    <div class="some-img">
+        <div class="scenery"></div>
+    </div>
+
+    <a class="btn-login" href="#">登录</a>
+
+    <!-- 模版语法可以嵌入js代码 -->
+    <% if(htmlWebpackPlugin.options.useCDN){ %>
+        <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.5.0/axios.min.js"></script>
+        <% } %>
+</body>
+
+</html>
